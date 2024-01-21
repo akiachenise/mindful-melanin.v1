@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Mindful Melanin - Wellness for Black Women</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+<body>
+    <div id=""loadingScreen" class="hidden" aria-live="polite">Loading...</div>
+
+    <header>
+        <h1>Mindful Melanin - Wellness for Black Women</h1><!-- Main Title for Screen Readers -->
+        <!-- Accessible Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#affirmations">Affirmations</a></li>
+                <li><a href="#goalTracker">Goal Tracker</a></li>
+                <li><a href="#journal">Journal</a></li>
+                <li><a href="#facebookGroup">Facebook Group</a></li>   
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="signInForm" aria-labelledby="signInTitle">
+            <h2 id="signInTitle">Sign In</h2>
+            <!-- Sign-In Form with Proper Labels for Accessibility -->
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Sign In</button>
+            </form>
+        </section>
+
+        <section id="content">
+            <!-- Main App Content with Proper Headings and ARIA Roles -->
+            <article id="affirmations" aria-labelledby="affirmationsTitle">
+                <h2 id="affirmationsTitle">Daily Affirmations</h2>
+                <!-- Affirmations content -->
+            </article>
+            <article id="goalTracker" aria-labelledby="goalTrackerTitle">
+                <h2 id="goalTrackerTitle">Goal Tracker</h2>
+                <!-- Goal tracker content -->
+            </article>
+            <article id="journal" aria-labelledby="journalTitle">
+                <h2 id="journalTitle">Journal</h2>
+                <!-- Journal content -->
+            </article>
+            <article id="facebookGroup" aria-labelledby="facebookGroupTitle">
+                <h2 id="facebookGroupTitle">Facebook Group</h2>
+                <!-- Facebook Group Link -->
+                <a href="#" aria-label="Link to Facebook group coming soon">Coming Soon</a>
+            </article>
+        </section>
+    </main>
+     
+    <footer>
+        <!-- Footer Content with accessible links and information -->
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+</html>
